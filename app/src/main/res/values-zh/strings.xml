@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Login</string>
+    <string name="usuario">用户名</string>
+    <string name="password">密码</string>
+    <string name="bienvenida">欢迎</string>
+    <string name="btAceptar">确认</string>
+    <string name="btVolver">返回</string>
+    <string name="login">登录</string>
+</resources>

@@ -16,9 +16,10 @@
         android:importantForAccessibility="yes"
         android:labelFor="@+id/txtNombre"
         android:text="@string/usuario"
+        android:textColor="@color/azul_claro"
         android:textSize="34sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/tvLogin" />
 
     <EditText
         android:id="@+id/txtNombre"
@@ -37,10 +38,11 @@
         android:id="@+id/tvPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="50dp"
         android:importantForAccessibility="yes"
         android:labelFor="@+id/ettpPassword"
         android:text="@string/password"
+        android:textColor="@color/azul_claro"
         android:textSize="34sp"
         app:layout_constraintStart_toStartOf="@+id/txtNombre"
         app:layout_constraintTop_toBottomOf="@+id/txtNombre" />
@@ -62,11 +64,24 @@
         android:id="@+id/btAceptar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="87dp"
+        android:layout_marginBottom="85dp"
+        android:importantForAccessibility="yes"
+        android:onClick="guardar"
         android:text="@string/btAceptar"
         android:textSize="34sp"
-        android:importantForAccessibility="yes"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/login"
+        android:textColor="@color/azul_oscuro"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

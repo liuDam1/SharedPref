@@ -3,7 +3,8 @@
     <string name="app_name">Login</string>
     <string name="usuario">User</string>
     <string name="password">Password</string>
-    <string name="bienvenida">Hello</string>
+    <string name="bienvenida">Welcome</string>
     <string name="btAceptar">" Accept"</string>
     <string name="btVolver">Return</string>
+    <string name="login">User Login</string>
 </resources>
